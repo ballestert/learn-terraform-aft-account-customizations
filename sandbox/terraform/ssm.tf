@@ -1,5 +1,3 @@
-data "aws_caller_identity" "current" {}
-
 resource "aws_ssm_parameter" "foo" {
     name  = "foo"
     type  = "String"
